@@ -116,7 +116,7 @@ function showLanding() {
   PROJECTS.forEach((project) => {
     const card = document.createElement("a");
     card.className = "project_card";
-    card.href = `?project=${project.slug}`;
+    card.href = `./?project=${project.slug}`;
 
     const name = document.createElement("h2");
     name.className = "project_name";
@@ -180,7 +180,7 @@ function showPolicy(project) {
 document.addEventListener("click", (e) => {
   if (e.target.closest(".breadcrumb_item")) {
     e.preventDefault();
-    window.history.pushState(null, "", "/");
+    window.history.pushState(null, "", "./");
     showLanding();
   }
 });
