@@ -12,27 +12,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wdth,wght@75..100,100..900&display=swap"
         rel="stylesheet">
 
-    <title>Raven: Política de privacidad</title>
+    <link rel="stylesheet" href="./css/landing.css" />
+    <title>Políticas de Privacidad</title>
     <meta name="description"
-        content="Política de privacidad de Ravem, un reproductor de música simple y ligero. Este repositorio aloja la página pública requerida para la publicación de la app en Google Play.">
+        content="Directorio de políticas de privacidad de nuestros proyectos.">
 </head>
 
 <body>
     <header>
         <nav>
+            <a class="brand_logo" href="https://akgz.dev" target="_blank">
+                <img src="./svg/akgz_logo.svg" alt="AKGZ - Nuestro sitio oficial">
+            </a>
             <img class="logo_header" src="./svg/ravem_logo_web.svg" />
+        </nav>
+        <nav id="breadcrumb_nav" class="breadcrumb_nav" style="display: none;">
+            <a href="/" class="breadcrumb_item">Proyectos</a>
+            <span class="breadcrumb_separator">/</span>
+            <span id="breadcrumb_project" class="breadcrumb_project"></span>
         </nav>
     </header>
     <main id="main" class="column-center">
-        <div id="main_content_container" class="column-center">
-
+        <div id="landing_container" class="column-center">
+            <h1 class="landing_title">Políticas de Privacidad</h1>
+            <p class="landing_subtitle">Selecciona un proyecto para ver su política de privacidad</p>
+            <div id="projects_grid" class="projects_grid">
+            </div>
+        </div>
+        <div id="main_content_container" class="column-center" style="display: none;">
         </div>
     </main>
     <footer class="column-center">
         <a class="akgz_logo" href="https://akgz.dev" target="_blank">
             <img src="./svg/akgz_logo.svg" alt="Logo del desarrollador">
         </a>
-        <p>© 2025 Henry Akgz. Todos los derechos reservados.</p>
+        <p>© 2026 Henry Akgz. Todos los derechos reservados.</p>
         <p><a href="mailto:Akgz.software@gmail.com" class="contact_link">Contacto</a></p>
     </footer>
     <script src="./js/content.js" type="module">
