@@ -1,7 +1,7 @@
 header,
 footer {
   width: 100%;
-  background-color: var(--color-accent);
+  background-color: var(--header-footer-background-color);
 }
 
 header {
@@ -14,10 +14,58 @@ nav {
   padding: 1.5rem;
   display: flex;
   align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 1rem;
+}
+
+.brand_logo {
+  position: absolute;
+  left: 1.5rem;
+  height: 2.58rem;
+  display: flex;
+  align-items: center;
+}
+
+.brand_logo img {
+  height: 100%;
 }
 
 .logo_header {
   height: 80%;
+}
+
+/* ############## breadcrumb ########## */
+
+.breadcrumb_nav {
+  width: 100%;
+  background-color: var(--header-breadcrumb-background-color);
+  padding: 0.8rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.breadcrumb_item {
+  color: var(--accent-color);
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.breadcrumb_item:hover {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+.breadcrumb_separator {
+  color: var(--paragraph-color);
+}
+
+.breadcrumb_project {
+  color: var(--paragraph-color);
 }
 
 /* ############## footer ########## */
@@ -29,11 +77,16 @@ footer {
 footer p {
   font-size: 1.3rem;
   text-align: center;
-  color: var(--color-sof-white);
+  color: var(--footer-text-color);
+}
+
+body.only-content header,
+body.only-content footer {
+  display: none;
 }
 
 .contact_link {
-  color: var(--color-electric-green);
+  color: var(--link-color);
   cursor: pointer;
 }
 

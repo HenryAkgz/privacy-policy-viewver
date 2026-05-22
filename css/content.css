@@ -4,23 +4,23 @@
 }
 
 .title_group {
-  color: white;
+  color: var(--title-color);
   font-size: 1.7rem;
   margin-bottom: 1rem;
 }
 
 .richParagraph {
   font-size: 1.4rem;
-  color: var(--color-sof-white);
+  color: var(--paragraph-color);
   margin-bottom: 0.7rem;
 }
 
 .span_text {
-  color: var(--color-electric-green);
+  color: var(--accent-color);
 }
 
 .link_tag {
   text-decoration: underline;
-  color: rgb(203, 113, 23);
+  color: var(--link-color);
   cursor: pointer;
 }
