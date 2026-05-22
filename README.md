@@ -1,4 +1,4 @@
-# Ravem Privacy Policy Viewer
+# Privacy Policy Viewer
 
 Pequeña aplicación estática para mostrar políticas de privacidad de mis proyectos.
 
