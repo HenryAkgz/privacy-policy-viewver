@@ -13,7 +13,7 @@
  */
 const PROJECTS = Object.freeze([
   {
-    logo: "./svg/ravem_logo_web.svg",
+    logo: "./assets/svg/ravem_logo_web.svg",
     nombre: "Ravem Music",
     slug: "ravem-music",
     privacyContent: "./json/ravem/privacy_policy.json",
@@ -32,7 +32,7 @@ const PROJECTS = Object.freeze([
     `,
   },
   {
-    logo: "./svg/akgz_logo.svg",
+    logo: "./assets/image/croppy_logo.png",
     nombre: "Croppy",
     slug: "croppy",
     privacyContent: "./json/croppy/privacy_policy.json",
