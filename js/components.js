@@ -1,3 +1,9 @@
+/**
+ * Devuelve un nodo DOM según el tipo de componente descrito en `data`.
+ * Soporta tipos: `group` y `paragraph`.
+ * @param {object} data - Objeto con la estructura del componente.
+ * @returns {HTMLElement}
+ */
 function getComponent(data) {
   switch (data["type"]) {
     case "group":
@@ -7,6 +13,12 @@ function getComponent(data) {
   }
 }
 
+/**
+ * Crea un contenedor de grupo que puede incluir un título y elementos hijos.
+ * @param {string} title - Título del grupo (opcional).
+ * @param {Array} content - Array de elementos hijos (component descriptions).
+ * @returns {HTMLElement} contenedor del grupo
+ */
 function groupComponent(title, content) {
   const container = document.createElement("div");
   container.className = "content_group_container";
@@ -33,6 +45,11 @@ function groupComponent(title, content) {
   return container;
 }
 
+/**
+ * Crea un párrafo con contenido enriquecido (HTML mínimo permitido).
+ * @param {string} content - Texto en bruto con marcadores para formato/link.
+ * @returns {HTMLElement} elemento <p>
+ */
 function richParagraph(content) {
   const paragraph = document.createElement("p");
   paragraph.className = "richParagraph";
@@ -44,6 +61,13 @@ function richParagraph(content) {
   return paragraph;
 }
 
+/**
+ * Aplica transformaciones simples al texto para convertir marcadores en HTML:
+ * - *texto* -> <span class="span_text">texto</span>
+ * - <####url>texto<####> -> enlace externo
+ * @param {string} text
+ * @returns {string} texto con HTML seguro mínimo
+ */
 function richText(text) {
   let richText = text;
 
