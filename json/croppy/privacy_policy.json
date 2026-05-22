@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "type": "group",
+      "horizontal_padding": 15,
+      "title_group": "Política de Privacidad de Croppy",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "Fecha de entrada en vigor: 22 de mayo de 2026"
+        },
+        {
+          "type": "paragraph",
+          "content": "Gracias por usar Croppy. Tu privacidad es muy importante para nosotros. Esta política de privacidad explica cómo tratamos la información de los usuarios que utilizan nuestra aplicación."
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "horizontal_padding": 15,
+      "title_group": "1. Recopilación de información",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "En la versión actual de Croppy, *no recopilamos información personal identificable* de los usuarios. Todos los proyectos, configuraciones, archivos multimedia y datos generados por la app se almacenan localmente en el dispositivo del usuario y no se envían a servidores externos."
+        },
+        {
+          "type": "paragraph",
+          "content": "La aplicación puede acceder a archivos multimedia, almacenamiento y documentos locales únicamente para permitir funciones como importar videos, audio y proyectos, exportar proyectos y contenido multimedia, guardar archivos generados por la aplicación y abrir archivos compatibles como *.croppy* y *.croppybundle*."
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "horizontal_padding": 15,
+      "title_group": "2. Uso de la información",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "Toda la información utilizada por la aplicación permanece localmente en el dispositivo del usuario y se utiliza exclusivamente para proporcionar las funciones principales de edición, procesamiento y exportación multimedia."
+        },
+        {
+          "type": "paragraph",
+          "content": "Croppy *no sube proyectos, videos, audios ni archivos personales a servidores externos*."
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "horizontal_padding": 15,
+      "title_group": "3. Publicidad",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "Esta aplicación utiliza servicios de publicidad proporcionados por Google AdMob. Aunque nosotros no recopilamos datos personales, *los servicios de publicidad pueden recopilar cierta información anónima o técnica* para mostrar anuncios personalizados o no personalizados, según la configuración y consentimiento del usuario."
+        },
+        {
+          "type": "paragraph",
+          "content": "Para más información sobre cómo Google recopila y utiliza estos datos, puedes consultar la <####>Política de Privacidad de Google<####>."
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "horizontal_padding": 15,
+      "title_group": "4. Servicios y bibliotecas externas",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "La aplicación utiliza herramientas, SDKs y bibliotecas de terceros necesarias para funciones multimedia, publicidad y procesamiento local de archivos, incluyendo tecnologías como *FFmpegKit* y servicios de publicidad de *Google AdMob*."
+        },
+        {
+          "type": "paragraph",
+          "content": "Estas herramientas se utilizan exclusivamente para proporcionar funciones de la aplicación y, en el caso del procesamiento multimedia, funcionan localmente en el dispositivo del usuario."
+        },
+        {
+          "type": "paragraph",
+          "content": "Para obtener más información sobre las bibliotecas, dependencias y licencias de terceros utilizadas por Croppy, puedes consultar la sección *Ajustes > Licencias de terceros* dentro de la aplicación."
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "horizontal_padding": 15,
+      "title_group": "5. Funciones futuras",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "*Nos reservamos el derecho de modificar esta política de privacidad en el futuro*, especialmente si añadimos nuevas funciones como sincronización de proyectos, copias de seguridad, cuentas de usuario o servicios en la nube."
+        },
+        {
+          "type": "paragraph",
+          "content": "Si en futuras versiones recopilamos o procesamos información personal, *lo haremos con total transparencia y solicitaremos el consentimiento correspondiente cuando sea necesario*."
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "horizontal_padding": 15,
+      "title_group": "6. Idioma oficial de la política",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "Esta política de privacidad puede estar disponible en varios idiomas para facilitar su comprensión. Sin embargo, en *caso de conflicto o duda sobre su interpretación, prevalecerá la versión en español*, que se considerará la versión oficial para cualquier cuestión legal."
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "horizontal_padding": 15,
+      "title_group": "7. Contacto",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "Si tienes alguna pregunta sobre esta política de privacidad, puedes contactarnos en: Akgz.software@gmail.com"
+        }
+      ]
+    }
+  ]
+}
