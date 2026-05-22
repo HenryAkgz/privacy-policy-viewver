@@ -11,10 +11,12 @@ Características
 Estructura
 ```
 index.html
+assets/
+  image/
+  svg/
 css/
 js/
 json/
-svg/
 ```
 
 Cómo usar
